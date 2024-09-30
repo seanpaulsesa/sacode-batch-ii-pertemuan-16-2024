@@ -1,8 +1,6 @@
-
-
 <?php
 
-
+    require_once('data.php');
 
 
 ?>
@@ -80,7 +78,7 @@
                         <td> <?= $m['alamat'] ?> </td>
                         <td>
                             <a href="" class="btn btn-primary">Ubah</a>
-                            <a href="" class="btn btn-warning">Detail</a>
+                            <a href="detail.php?id=<?= $m['id']?>" class="btn btn-warning">Detail</a>
                             <a href="" class="btn btn-danger">Hapus</a>
                         </td>
                     </tr>

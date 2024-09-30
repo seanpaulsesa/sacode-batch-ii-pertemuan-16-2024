@@ -1,4 +1,5 @@
-<?php
+<?php 
+
 
 $mahasiswa = [
 
@@ -35,4 +36,3 @@ $mahasiswa = [
     ],
 
 ];
-?>
